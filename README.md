@@ -1,7 +1,6 @@
 #cross-domain-requests
 ##可以用来实现跨域请求，把请求信息委托给中间层去转发请求并获取数据并返回
 ##更有意义的是可以实现前后端分离，把所有请求委托给中间层去转发，并在中间层处理返回的数据，中间层把能直接使用的数据返回给视图层
-\<br>
 ###CrossDomain 对象的使用示例
 ```javascript
 let crossDomain = new CrossDomain('') // 中间层地址
