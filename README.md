@@ -5,7 +5,7 @@
 ```javascript
 let crossDomain = new CrossDomain('') // 中间层地址
 crossDomain.ajax({
-    method: 'GET' // POST
+    method: 'GET', // POST
     url: '', // 需要转发的请求地址
     data: '' // 请求对象
   }, function (data) {
